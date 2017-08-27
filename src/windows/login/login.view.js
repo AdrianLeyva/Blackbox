@@ -1,16 +1,16 @@
 const electron = require('electron');
 const app = electron.app;
 const BrowserWindow = electron.BrowserWindow;
-const path = require('path');
-const url = require('url');
 
 let mainWindow;
 
 function createWindow () {
     // Create the browser window.
     mainWindow = new BrowserWindow({
+        title: 'Blackbox',
         width: 600,
         height: 500,
+        center: true,
         resizable: false
     });
 

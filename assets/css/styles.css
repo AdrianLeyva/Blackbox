@@ -1,9 +1,61 @@
+.body_login{
+    background-color: #181818;
+    overflow: hidden;
+}
 .login_header{
     background-color: white;
 }
 .login_header-img{
-    width: 300px;
+    width: 400px;
+    margin-top: 5px;
 }
 .login_logger{
-    background-color: #154F68;
+}
+.login_input-group-login{
+    padding-left: 100px;
+    padding-right: 100px;
+    margin-top: 30px;
+}
+.login_input-login{
+    background-color: white;
+    font-family: "Raleway",sans-serif;
+}
+.login_title{
+    color: white;
+    font-size: 30px;
+    font-family: "Montserrat",sans-serif;
+}
+.login_passwforgotten{
+    color: white;
+    font-size: 12px;
+    font-family: "Raleway", sans-serif;
+    margin-top: 10px;
+    cursor: pointer;
+}
+.login_passwforgotten:hover{
+    color: red;
+}
+.login_newaccount{
+    margin-top: 50px;
+    color: #0464ff;
+    font-size: 20px;
+    font-family: "Montserrat", sans-serif;
+    cursor: pointer;
+}
+.login_newaccount:hover{
+    color: #0000ca;
+}
+.login_buttonlogin{
+    color: white;
+    margin-top: 10px;
+    padding-left: 25px;
+    padding-right: 25px;
+    background-color: #0f0f0f;
+    border-color: white;
+    -webkit-border-radius: 20px;
+    font-size: 20px;
+    font-family: "Montserrat", sans-serif;
+}
+.login_buttonlogin:hover{
+    background-color: #1c1c1c;
 }

@@ -4,37 +4,62 @@
     <meta charset="UTF-8">
     <title>Login</title>
 
-    <link href="/assets/css/styles.css" rel="stylesheet">
+    <link href="../../../assets/css/styles.css" rel="stylesheet">
 
     <!-- Bootstrap -->
-    <link href="/assets/css/bootstrap.min.css" rel="stylesheet">
+    <link href="../../../assets/css/bootstrap.min.css" rel="stylesheet">
     <!-- Awesome -->
-    <link rel="stylesheet" href="/assets/css/font-awesome.min.css">
+    <link rel="stylesheet" href="../../../assets/css/font-awesome.min.css">
 
     <!--Google Fonts-->
     <link href="https://fonts.googleapis.com/css?family=Acme|Space+Mono|Inconsolata|Raleway|Abel|Bree+Serif|Muli|Anton|Lato|Montserrat|Nunito+Sans|Oswald|Taviraj"
           rel="stylesheet">
 
     <!--Jquery-->
-    <script src="/assets/jquery/jquery-3.1.0.min.js"></script>
+    <script src="../../../assets/jquery/jquery-3.1.0.min.js"></script>
 </head>
-<body>
+<body class="body_login">
 
     <!--Header-->
     <div align="center" class="row login_header">
-        <img class="img-responsive" src="../../../assets/img/blackbox-extended.png"/>
+        <img class="img-responsive login_header-img" src="../../../assets/img/blackbox-extended.png"/>
     </div>
 
     <!--Logger-->
     <div align="center" class="row login_logger">
-        <h1>TESTING</h1>
+
+        <h1 class="login_title">Log in</h1>
+
+        <div class="input-group margin-bottom-sm login_input-group-login">
+            <span class="input-group-addon">
+                <i class="fa fa-user fa-fw"></i>
+            </span>
+            <input id="fieldUsername" class="form-control login_input-login" name="username" type="text" placeholder="Type your username or email">
+        </div>
+
+
+        <div class="input-group margin-bottom-sm login_input-group-login">
+            <span class="input-group-addon">
+                <i class="fa fa-lock fa-fw"></i>
+            </span>
+            <input id="fieldPassword" class="form-control login_input-login" name="password" type="password" placeholder="Type your password">
+        </div>
+
+        <button id="buttonLogin" class="login_buttonlogin">Login</button>
+
+        <p class="login_passwforgotten">Did you forget your password?</p>
+    </div>
+
+    <!--New account-->
+    <div align="center" class="row">
+        <h3 class="login_newaccount">Create new account</h3>
     </div>
 
 
 <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
-<script src="/assets/js/jquery.js"></script>
+<script src="../../../assets/js/jquery.js"></script>
 <!-- Include all compiled plugins (below), or include individual files as needed -->
-<script src="/assets/js/bootstrap.min.js"></script>
+<script src="../../../assets/js/bootstrap.min.js"></script>
 </body>
 
 
